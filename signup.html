@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Team Golden - Signup</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="stage">
+                <div class="row">
+                    <div class="col col-md-4 signup-left">
+                        <div class="row">
+                            <div class="side-msg">
+                                <h1 class="side-msg-heading">WELCOME BACK!</h1>
+                                <div class="side-msg-text">
+                                    <p>Keep connected with us.</p>
+                                    <p>Please Login your personal details</p>
+                                </div>
+                                <form action="index.html">
+                                    <input type="submit" class="btn btn-golden-outline" value="Login" />
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-8 sm-12 signup-right">
+                        <h1 class="form-heading"> SIGNUP TO TEAM GOLDEN</h1>
+                        <div class="row">
+                            <form class="needs-validation form-body">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-container">
+                                            <i class="fas fa-user form-icon"></i>
+                                            <input type="text" class="form-control form-input" placeholder="Username">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-container">
+                                                    <i class="fas fa-envelope form-icon"></i>
+                                                    <input type="email" class="form-control form-input" placeholder="Email">
+                                                </div>
+                                            </div>
+
+                                    <div class="input-group">
+                                        <div class="input-container">
+                                            <i class="fas fa-lock form-icon"></i>
+                                            <input type="password" class="form-control form-input"
+                                                placeholder="Password">
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group">
+                                            <div class="input-container">
+                                                <i class="fas fa-lock form-icon"></i>
+                                                <input type="password" class="form-control form-input"
+                                                    placeholder="Confirm Password">
+                                            </div>
+                                        </div>
+                                    <h3 class="alt-signin">or use gmail account?</h3>
+                                    <div class="social-container">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f  social-icons"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g social-icons"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in social-icons "></i>
+                                        </a>
+                                    </div>
+                                    <button type="submit" class="btn btn-golden">Signup</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
